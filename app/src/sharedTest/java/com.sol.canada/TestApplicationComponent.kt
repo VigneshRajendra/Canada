@@ -1,8 +1,10 @@
 package com.sol.canada
 
 import android.content.Context
-import com.sol.canada.data.FactRepository
-import com.sol.canada.di.*
+import com.sol.canada.di.ActivityBuildersModule
+import com.sol.canada.di.AppModule
+import com.sol.canada.di.SharedPreferenceModule
+import com.sol.canada.di.ViewModelModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector

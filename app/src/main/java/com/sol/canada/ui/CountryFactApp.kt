@@ -24,7 +24,7 @@ open class CountryFactApp:DaggerApplication(){
     override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
         return DaggerApplicationComponent.factory().create(this)
     }
-    fun isRoboUnitTest(): Boolean {
+    private fun isRoboUnitTest(): Boolean {
         return "robolectric" == Build.FINGERPRINT
     }
 }

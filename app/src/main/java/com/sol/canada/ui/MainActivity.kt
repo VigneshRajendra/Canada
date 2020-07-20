@@ -1,7 +1,6 @@
 package com.sol.canada.ui
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -12,12 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.sol.canada.R
 import com.sol.canada.databinding.ActivityMainBinding
 import com.sol.canada.ui.countryfactdetails.ui.FactDetailsViewModel
-import dagger.android.AndroidInjector
-import dagger.android.DaggerActivity
-import dagger.android.DispatchingAndroidInjector
-import dagger.android.HasAndroidInjector
 import dagger.android.support.DaggerAppCompatActivity
-import timber.log.Timber
 import javax.inject.Inject
 
 /**

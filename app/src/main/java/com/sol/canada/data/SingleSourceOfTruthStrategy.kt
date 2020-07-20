@@ -3,9 +3,7 @@ package com.sol.canada.data
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import androidx.lifecycle.map
-import com.sol.canada.ui.countryfactdetails.data.FactDetail
 import kotlinx.coroutines.Dispatchers
-import timber.log.Timber
 
 /**
  * The database serves as the single source of truth.

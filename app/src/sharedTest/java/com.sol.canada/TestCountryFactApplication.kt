@@ -16,11 +16,8 @@
 
 package com.sol.canada
 
-import androidx.fragment.app.Fragment
 import com.sol.canada.ui.CountryFactApp
-import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
-import javax.inject.Inject
 
 /**
  * An application used from instrumentation tests. It has a fragment injector to enable
