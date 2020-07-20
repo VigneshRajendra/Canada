@@ -8,10 +8,6 @@ import kotlinx.coroutines.Dispatchers
 import timber.log.Timber
 
 /**
- * Taken from https://github.com/Eli-Fox/LEGO-Catalog
- */
-
-/**
  * The database serves as the single source of truth.
  * Therefore UI can receive data updates from database only.
  * Function notify UI about:
